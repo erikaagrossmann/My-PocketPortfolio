@@ -1,0 +1,47 @@
+/* SECTION ONE */
+
+.holder {
+    padding:8rem;
+    background-color: rgb(248, 237, 235);
+}
+
+.connect {
+    padding: 2rem;
+}
+
+.connect-btn {
+    text-decoration: underline;
+    font-size: 4.5rem;
+    background-color: white;
+    border-color: black;
+}
+
+.connect-btn::first-letter{
+    font-size: 8rem;
+}
+
+.words {
+    font-size: 2rem;
+    text-transform: uppercase;
+}
+
+/* SECTION ONE END */
+
+
+/* CAROUSEL */
+
+.carousel-inner {
+    max-height: 800px;
+    width: auto;
+}
+
+.carousel-item img {
+    max-height: 800px;
+    cursor: pointer;
+}
+
+/* #carouselExampleIndicators {
+    color: rgb(121, 27,29)
+} */
+
+/* CAROUSEL END */

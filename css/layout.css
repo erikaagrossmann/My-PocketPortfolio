@@ -1,0 +1,9 @@
+/* NAV */
+
+.nav-link{
+color: rgb(158, 42, 43);
+}
+
+.nav-link:hover {
+color: rgb(175, 72, 48);
+}
