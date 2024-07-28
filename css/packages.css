@@ -1,0 +1,12 @@
+.title {
+    text-decoration: underline;
+    text-transform: uppercase;
+    text-align: center;
+    padding: 2rem;
+    font-size: 6rem;
+}
+
+.pack {
+    border-color: black;
+    border-radius: 10px;
+}
