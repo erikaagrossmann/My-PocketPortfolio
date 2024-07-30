@@ -7,6 +7,12 @@
 }
 
 .pack {
-    border-color: black;
     border-radius: 10px;
+    justify-content: space-evenly;
+    margin:3rem;
+  
 }
+
+/* .prices {
+padding: 3rem;
+} */
