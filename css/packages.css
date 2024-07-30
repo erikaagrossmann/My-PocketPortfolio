@@ -10,7 +10,13 @@
     border-radius: 10px;
     justify-content: space-evenly;
     margin:3rem;
+    text-decoration: none;
+    color:black;
   
+}
+
+.pack:hover {
+    background-color: rgba(240,201,119, 0.5);
 }
 
 /* .prices {
