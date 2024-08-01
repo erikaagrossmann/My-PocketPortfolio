@@ -20,24 +20,25 @@
   </head>
   <body>
 
-    <header class="d-flex flex-column justify-content-center">
-        <div class="header">
+    <header>
+        <div class="header d-flex flex-column justify-content-center">
             <div class="p-2">
                 <img class="logo align-content-start" src="../imgs/logoBLANK.png" alt="My Pocket Folio" />
             </div>
             <div class="p-4 words">
-            <h1>My Pocket Portfolio</h1>
+                <h1>My Pocket Portfolio</h1>
+            </div>
         </div>
-  </div>
-        </header>
+    </header>
 
         <!-- LOGIN FORM START -->
 
-        <form class="m-5">
+        <form>
+            <div class="m-5 ml-5 p-3">
             <div class="mb-3 p-2">
               <label for="exampleInputEmail1" class="form-label">Email address</label>
               <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
-              <div id="emailHelp" class="form-text">We'll never share your email with anyone else.</div>
+                <div id="emailHelp" class="form-text">This will be used as the best way for you to log in.</div>
             </div>
             <div class="mb-3 p-2">
               <label for="exampleInputPassword1" class="form-label">Password</label>
@@ -47,6 +48,7 @@
                 </span>
             </div>
             <button type="submit" class="btn btn-light btn-lg">Log In</button>
+        </div>
           </form>
 
         <!-- LOGIN FORM END -->
