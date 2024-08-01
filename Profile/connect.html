@@ -12,25 +12,27 @@
       href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.4/font/bootstrap-icons.css"
     />
     <link rel="stylesheet" href="../css/layout.css" />
-	<link rel="stylesheet" href="../css/global.css" />
-    <link rel="stylesheet" href="../css/login.css " />
-    <title>Log In</title>
+    <link rel="stylesheet" href="../css/global.css" />
+    <link rel="stylesheet" href="../css/connect.css" />
+    <title>All Inclusive</title>
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js"></script>
   </head>
   <body>
 
-    <header>
-        <div class="header d-flex flex-column mb-3 justify-content-center">
-            <div class="p-4 mb-5">
-                <img class="logo align-content-start" src="../imgs/logoBLANK.png" alt="My Pocket Folio" />
-            </div>
-            <div class="p-4 words">
-                <h1>My Pocket Portfolio</h1>
-            </div>
-       </div>
+<header class="header">
+    <div class="d-flex justify-content-between">
+        <div class="mt-5">
+            <img class="logo" src="../imgs/logoBLANK.png" alt="My Pocket Folio" />
+        </div>
+        <div class="log-in">
+  <a href="../Profile/LogIn.html" class="btn btn-light btn-lg shadow p-3 mb-5 bg-body-tertiary rounded" tabindex="-1" role="button" aria-disabled="true">Log In</a>
+</div>
+    </div>
 
-       <!-- <ul class="nav nav-tabs justify-content-center nav-fill">
+    <h1>My Pocket Portfolio</h1>
+
+    <ul class="nav nav-tabs justify-content-center nav-fill">
         <li class="nav-item dropdown">
             <a class="nav-link dropdown-toggle active" aria-current="page" href="./index.html" role="button" data-bs-toggle="dropdown" aria-expanded="false"
                 >Home</a>
@@ -54,31 +56,14 @@
         <li class="nav-item">
             <a class="nav-link" href="../Packages/index.html">Packages</a>
         </li>
-    </ul> -->
+    </ul>
+</header>
+
+<div>
+<h2 class="text-center mt-5 p-3"> how to use your pocket portfolio</h2>
 
 
-    </header>
+</div>
 
-        <!-- LOGIN FORM START -->
-
-        <form>
-            <div class="m-5 ml-5 p-3">
-            <div class="mb-3 p-2">
-              <label for="exampleInputEmail1" class="form-label">Email address</label>
-              <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
-                <div id="emailHelp" class="form-text">This will be used as the best way for you to log in.</div>
-            </div>
-            <div class="mb-3 p-2">
-              <label for="exampleInputPassword1" class="form-label">Password</label>
-              <input type="password" class="form-control" id="exampleInputPassword1">
-                <span id="passwordHelpInline" class="form-text">
-                  Must be 8-20 characters long.
-                </span>
-            </div>
-            <button type="submit" class="btn btn-light btn-lg">Log In</button>
-        </div>
-          </form>
-
-        <!-- LOGIN FORM END -->
-  </body>
-</html> 
+</body>
+</html>

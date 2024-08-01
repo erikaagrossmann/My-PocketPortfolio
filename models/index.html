@@ -20,7 +20,7 @@
 	<body>
 		<header class="header">
 			<div class="d-flex justify-content-between">
-				<div class="p-2">
+				<div class="mt-5">
 					<img class="logo" src="../imgs/logoBLANK.png" alt="My Pocket Folio" />
 				</div>
 				<div class="log-in">
@@ -31,8 +31,13 @@
 			<h1>My Pocket Portfolio</h1>
 
 			<ul class="nav nav-tabs justify-content-center nav-fill">
-				<li class="nav-item">
-					<a class="nav-link" href="../Profile/index.html">Home</a>
+				<li class="nav-item dropdown">
+					<a class="nav-link dropdown-toggle" href="../Profile/index.html" role="button" data-bs-toggle="dropdown" aria-expanded="false">Home</a>
+          <ul class="dropdown-menu">
+            <li><a class="dropdown-item" href="../Profile/index.html">Go Home</a></li>
+            <li><a class="dropdown-item" href="../Profile/connect.html">Learn how to Connect</a></li>
+            <li><a class="dropdown-item" href="../Profile/LogIn.html">Log In</a></li>
+          </ul>
 				</li>
 				<li class="nav-item">
 					<a class="nav-link active" aria-current="page" href="./index.html"

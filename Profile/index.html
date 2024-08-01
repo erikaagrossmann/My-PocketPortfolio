@@ -21,7 +21,7 @@
 	<body>
 		<header class="header">
 			<div class="d-flex justify-content-between">
-				<div class="p-2">
+				<div class="mt-5">
 					<img class="logo" src="../imgs/logoBLANK.png" alt="My Pocket Folio" />
 				</div>
 				<div class="log-in">
@@ -32,9 +32,14 @@
 			<h1>My Pocket PortFolio</h1>
 
 			<ul class="nav nav-tabs justify-content-center nav-fill">
-				<li class="nav-item">
-					<a class="nav-link active" aria-current="page" href="./index.html"
+				<li class="nav-item dropdown">
+					<a class="nav-link dropdown-toggle active" aria-current="page" href="./index.html" role="button" data-bs-toggle="dropdown" aria-expanded="false"
 						>Home</a>
+            <ul class="dropdown-menu">
+              <li><a class="dropdown-item" href="./index.html">Go Home</a></li>
+              <li><a class="dropdown-item" href="./connect.html">Learn how to Connect</a></li>
+              <li><a class="dropdown-item" href="./LogIn.html">Log In</a></li>
+            </ul>
 				</li>
 				<li class="nav-item">
 					<a class="nav-link" href="../models/index.html">Models</a>
@@ -53,13 +58,19 @@
 			</ul>
 		</header>
 
-		<!-- SECTION ONE START -->
-		<div class="d-flex flex-row mb-3 holder justify-content-around">
-			<div class="connect p-2"></div>
-			<button type="button" class="btn btn-light btn-lg connect-btn shadow p-3 mb-5 bg-body-tertiary rounded">
-				Connect
-			</button>
+   
 
+		<!-- SECTION ONE START -->
+
+    <div class="d-flex flex-column">
+    <div>
+      <h2 class="text-center mt-5 title">Find ways to</h2>
+    </div>
+
+		<div class="d-flex flex-row holder justify-content-around">
+			<div class="connect p-2">
+        <a href="./connect.html" class="btn btn-light btn-lg connect-btn shadow p-3 mb-5 bg-body-tertiary rounded" tabindex="-1" role="button" aria-disabled="true">Connect</a>
+      </div>
 			<div class="p-2 align-self-center">
 				<h3 class="with">WITH</h3>
 			</div>
@@ -71,7 +82,13 @@
 				</p>
 			</div>
 		</div>
+
+    <div>
+      <h2 class="text-center">Using your Pocket PortFolio</h2>
+    </div>
+  </div>
 		<!-- SECTION ONE END -->
+
 
 		<!-- VIDEO SECTION START -->
 		<div class="d-flex flex-row justify-content-evenly holder">
