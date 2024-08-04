@@ -22,3 +22,27 @@
 /* .prices {
 padding: 3rem;
 } */
+
+
+/* PURCHASE PAGES */
+
+.package {
+    font-size: 3rem;
+    text-align: center;
+    padding: 2rem;
+}
+
+.box {
+    border-color: black;
+    border-radius: 10px;
+}
+
+.description {
+    padding:2rem;
+    font-size: 1.7rem;
+}
+
+.purchase {
+    text-align: center;
+
+}
